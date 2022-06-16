@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <form>
+      <label for="country-code">Country Code:</label>
+      <input id="country-code" type="text" name="countryCode" />
+      <br />
+      <label for="postal-code">Postal Code:</label>
+      <input id="postal-code" type="text" name="postalCode" />
+      <br />
+      <input type="submit" value="Save" />
+    </form>
+    <br /><br />
+    <div class="selection-area">
+      <span><strong>Postal Codes</strong></span>
+      <ul>
+        <!-- Place here li items for every postal code 
+             Example <li>ES-46720</li>
+        -->
+      </ul>
+    </div>
+    <br /><br />
+    <div class="error-area">
+      <span><strong>HTTP Error section</strong></span>
+      <span class="http-error">
+        <!-- Fulfill with the http error code -->
+      </span>
+    </div>
+  </body>
+</html>
